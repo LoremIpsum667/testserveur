@@ -1,11 +1,24 @@
 {
   "name": "test",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoremIpsum667/testserveur.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LoremIpsum667/testserveur/issues"
+  },
+  "homepage": "https://github.com/LoremIpsum667/testserveur#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.2",
+    "twig": "^1.15.4"
+  }
 }
